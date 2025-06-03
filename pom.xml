@@ -26,8 +26,8 @@
         <hibernate-search.version>6.1.8.Final</hibernate-search.version>
         <postgresql.version>42.7.0</postgresql.version>
         <log4j.version>2.17.1</log4j.version>
-        <springframework.version>6.2.2</springframework.version>
-        <springsecurity.version>6.0.4</springsecurity.version>
+        <springframework.version>6.2.7</springframework.version>
+        <springsecurity.version>6.4.6</springsecurity.version>
         <testContainersVersion>1.15.3</testContainersVersion>
     </properties>
     <dependencies>
@@ -75,7 +75,7 @@
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-base</artifactId>
-            <version>6.6.2</version>
+            <version>7.6.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -147,7 +147,7 @@
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
-            <version>1.9.4</version>
+            <version>1.11.0</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
@@ -253,7 +253,7 @@
         <dependency>
             <groupId>nl.martijndwars</groupId>
             <artifactId>web-push</artifactId>
-            <version>5.1.1</version>
+            <version>5.1.2</version>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
@@ -431,7 +431,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
-            <version>3.4.2</version>
+            <version>3.4.6</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -778,8 +778,8 @@
                         <sortPom>
                             <expandEmptyElements>false</expandEmptyElements>
                         </sortPom>
-                        <trimTrailingWhitespace />
-                        <endWithNewline />
+                        <trimTrailingWhitespace/>
+                        <endWithNewline/>
                         <indent>
                             <spaces>true</spaces>
                         </indent>
@@ -787,7 +787,7 @@
                     <formats>
                         <!-- you can define as many formats as you want, each is independent -->
                         <format>
-                            <toggleOffOn />
+                            <toggleOffOn/>
                             <includes>
                                 <include>src/main/resources/hibernate/**/*.xml</include>
                                 <!-- <include>src/main/resources/liquibase/**/*.xml</include> -->
@@ -812,8 +812,8 @@
                             <eclipseWtp>
                                 <type>XML</type>
                             </eclipseWtp>
-                            <trimTrailingWhitespace />
-                            <endWithNewline />
+                            <trimTrailingWhitespace/>
+                            <endWithNewline/>
                             <indent>
                                 <spaces>true</spaces>
                             </indent>
@@ -837,8 +837,8 @@
                                 <exclude>dataexport/**</exclude>
                                 <exclude>plugins/**</exclude>
                             </excludes>
-                            <trimTrailingWhitespace />
-                            <endWithNewline />
+                            <trimTrailingWhitespace/>
+                            <endWithNewline/>
                             <indent>
                                 <spaces>true</spaces>
                             </indent>
@@ -865,10 +865,10 @@
                     </formats>
                     <!-- define a language-specific format -->
                     <java>
-                        <importOrder />
+                        <importOrder/>
                         <!-- standard import order -->
 
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
 
                         <eclipse>
                             <version>4.26</version>
