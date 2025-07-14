@@ -142,7 +142,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.9</version>
+            <version>3.18.0</version>
         </dependency>
         <dependency>
             <groupId>commons-beanutils</groupId>
@@ -157,7 +157,7 @@
         <dependency>
             <groupId>commons-validator</groupId>
             <artifactId>commons-validator</artifactId>
-            <version>1.6</version>
+            <version>1.10.0</version>
         </dependency>
         <!-- CASTOR DEPENDENCIES -->
         <dependency>
@@ -778,8 +778,8 @@
                         <sortPom>
                             <expandEmptyElements>false</expandEmptyElements>
                         </sortPom>
-                        <trimTrailingWhitespace />
-                        <endWithNewline />
+                        <trimTrailingWhitespace/>
+                        <endWithNewline/>
                         <indent>
                             <spaces>true</spaces>
                         </indent>
@@ -787,7 +787,7 @@
                     <formats>
                         <!-- you can define as many formats as you want, each is independent -->
                         <format>
-                            <toggleOffOn />
+                            <toggleOffOn/>
                             <includes>
                                 <include>src/main/resources/hibernate/**/*.xml</include>
                                 <!-- <include>src/main/resources/liquibase/**/*.xml</include> -->
@@ -812,8 +812,8 @@
                             <eclipseWtp>
                                 <type>XML</type>
                             </eclipseWtp>
-                            <trimTrailingWhitespace />
-                            <endWithNewline />
+                            <trimTrailingWhitespace/>
+                            <endWithNewline/>
                             <indent>
                                 <spaces>true</spaces>
                             </indent>
@@ -837,8 +837,8 @@
                                 <exclude>dataexport/**</exclude>
                                 <exclude>plugins/**</exclude>
                             </excludes>
-                            <trimTrailingWhitespace />
-                            <endWithNewline />
+                            <trimTrailingWhitespace/>
+                            <endWithNewline/>
                             <indent>
                                 <spaces>true</spaces>
                             </indent>
@@ -865,10 +865,10 @@
                     </formats>
                     <!-- define a language-specific format -->
                     <java>
-                        <importOrder />
+                        <importOrder/>
                         <!-- standard import order -->
 
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
 
                         <eclipse>
                             <version>4.26</version>
