@@ -75,7 +75,7 @@
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-base</artifactId>
-            <version>6.6.2</version>
+            <version>8.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -778,8 +778,8 @@
                         <sortPom>
                             <expandEmptyElements>false</expandEmptyElements>
                         </sortPom>
-                        <trimTrailingWhitespace />
-                        <endWithNewline />
+                        <trimTrailingWhitespace/>
+                        <endWithNewline/>
                         <indent>
                             <spaces>true</spaces>
                         </indent>
@@ -787,7 +787,7 @@
                     <formats>
                         <!-- you can define as many formats as you want, each is independent -->
                         <format>
-                            <toggleOffOn />
+                            <toggleOffOn/>
                             <includes>
                                 <include>src/main/resources/hibernate/**/*.xml</include>
                                 <!-- <include>src/main/resources/liquibase/**/*.xml</include> -->
@@ -812,8 +812,8 @@
                             <eclipseWtp>
                                 <type>XML</type>
                             </eclipseWtp>
-                            <trimTrailingWhitespace />
-                            <endWithNewline />
+                            <trimTrailingWhitespace/>
+                            <endWithNewline/>
                             <indent>
                                 <spaces>true</spaces>
                             </indent>
@@ -837,8 +837,8 @@
                                 <exclude>dataexport/**</exclude>
                                 <exclude>plugins/**</exclude>
                             </excludes>
-                            <trimTrailingWhitespace />
-                            <endWithNewline />
+                            <trimTrailingWhitespace/>
+                            <endWithNewline/>
                             <indent>
                                 <spaces>true</spaces>
                             </indent>
@@ -865,10 +865,10 @@
                     </formats>
                     <!-- define a language-specific format -->
                     <java>
-                        <importOrder />
+                        <importOrder/>
                         <!-- standard import order -->
 
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
 
                         <eclipse>
                             <version>4.26</version>
